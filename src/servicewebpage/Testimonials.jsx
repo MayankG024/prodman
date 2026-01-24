@@ -4,42 +4,42 @@ import "./Testimonials.css";
 const testimonials = [
   {
     name: "Priya Sharma",
-    role: "Founder, FreshBloom Organics",
+    role: "Founder, Food & Beverage Industry",
     quote:
       "Prodman transformed our packaging from ordinary to extraordinary. Their design strategy helped us stand out in the competitive organic food market. Sales increased by 40% within three months!",
     image: "https://i.pravatar.cc/150?img=47"
   },
   {
     name: "Rajesh Kulkarni",
-    role: "CEO, TechVista Solutions",
+    role: "CEO, Technology Sector",
     quote:
       "The branding and positioning work they did for our startup was phenomenal. They understood our vision and created an identity that resonates with our target audience perfectly.",
     image: "https://i.pravatar.cc/150?img=12"
   },
   {
     name: "Ananya Reddy",
-    role: "Marketing Head, Spice Route Foods",
+    role: "Marketing Head, FMCG",
     quote:
       "Working with Prodman on our product packaging was a game-changer. Their attention to detail and creative approach helped us create packaging that tells our brand story beautifully.",
     image: "https://i.pravatar.cc/150?img=45"
   },
   {
     name: "Vikram Desai",
-    role: "Co-founder, UrbanNest Furniture",
+    role: "Co-founder, E-commerce",
     quote:
       "The web development and UX/UI design services exceeded our expectations. Our new website is not just beautiful but also incredibly user-friendly. Customer engagement has doubled!",
     image: "https://i.pravatar.cc/150?img=15"
   },
   {
     name: "Meera Iyer",
-    role: "Brand Manager, Wellness Co.",
+    role: "Brand Manager, Healthcare",
     quote:
       "Prodman's social media creatives have transformed our online presence. Their designs are eye-catching and perfectly aligned with our wellness brand's ethos. Highly recommended!",
     image: "https://i.pravatar.cc/150?img=38"
   },
   {
     name: "Arjun Kapoor",
-    role: "Director, Heritage Handicrafts",
+    role: "Director, Retail Business",
     quote:
       "From strategy to execution, Prodman delivered excellence at every step. They helped us rebrand our traditional handicraft business for modern consumers while maintaining our heritage.",
     image: "https://i.pravatar.cc/150?img=33"
