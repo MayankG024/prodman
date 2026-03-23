@@ -190,7 +190,9 @@
 }
 
 .footer-copy {
-  opacity: 0.6;
+  opacity: 0.9;
+  color: #fff;
+  font-size: 15px;
 }
 
 /* Tablet and Mobile Responsive */
@@ -242,11 +244,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 18px;
-    font-size: 12px;
+    font-size: 15px;
   }
 
   .footer-copy {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 

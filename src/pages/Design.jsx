@@ -6,10 +6,11 @@ import Testimonials from "../servicewebpage/Testimonials";
 import PortfolioSection from "../servicewebpage/PortfolioSection";
 import GetInTouchDesign from "../servicewebpage/GetInTouchDesign";
 import Seo from "../components/Seo/Seo";
+import "./Design.css";
 
 const Design = () => {
   return (
-    <>
+    <div className="design-page-wrapper">
       <Seo
         title="Tech Concierge - Prodman | Branding, Web Design & More"
         description="Professional tech concierge services including product packaging, branding, web development, UX/UI design, and social media creatives. Expert creative solutions for your business."
@@ -22,7 +23,7 @@ const Design = () => {
       <PortfolioSection />
       <GetInTouchDesign />
       <DesignFooter />
-    </>
+    </div>
   );
 };
 

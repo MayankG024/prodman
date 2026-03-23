@@ -44,8 +44,8 @@
     border-radius: 6px;
     line-height: 1.7;
     font-size: 20px;
-    margin-bottom: -72px;
-    display: flex; /* overlap with form */
+    margin-bottom: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -70,13 +70,12 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 40px 0;
+    padding: 80px 20px;
   }
   
   /* FORM CARD */
   .swgit-form-card {
     position: relative;
-    bottom: 40px;
     z-index: 2;
     max-width: 800px;
     margin: auto;
@@ -123,7 +122,7 @@
   }
   
   .swgit-form-card input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
   
   .swgit-form-card button {
@@ -154,7 +153,7 @@
     /* color: #f4a640; */
     font-weight: 400;
     opacity: 0.8;
-    font-family: Nuntio , sans-serif;
+    font-family: inherit;
 
   }
 
@@ -196,7 +195,7 @@
   }
 
   .swgit-form-card .swgit-phone-input input::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
 
   /* MODAL POPUP STYLES */
@@ -290,7 +289,7 @@
 
   .swgit-modal .swgit-form input::placeholder,
   .swgit-modal .swgit-form textarea::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.75);
   }
 
   .swgit-modal .swgit-form textarea {

@@ -74,10 +74,19 @@
   height: auto;
   display: block;
   opacity: 0.4;
+  transition: opacity 0.3s ease;
 }
 
-.portfolio-card img:hover {
-  opacity: 1;
+@media (hover: hover) {
+  .portfolio-card img:hover {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .portfolio-card img {
+    opacity: 1; /* full visibility on touch devices */
+  }
 }
 
 /* DIM OVERLAY (PRO FIX) */
@@ -113,6 +122,10 @@
 
 /* MOBILE */
 @media (max-width: 900px) {
+  .portfolio-section {
+    padding: 60px 0;
+  }
+
   .portfolio-header {
     flex-direction: column;
     align-items: flex-start;
