@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import '../styles/landingFirst.css';
 import prodmanIcon from '../assets/image/prodmanIcon.png';
+import Seo from '../components/Seo/Seo';
 
 const LandingFirst = () => {
     useEffect(() => {
@@ -43,10 +43,10 @@ const LandingFirst = () => {
 
     return (
         <div className='landingPage'>
-            <Helmet>
-                <title>Welcome to Prodman - Prod Studio & Tech Concierge</title>
-                <meta name="description" content="Choose between our professional prod studio and tech concierge services. Production-ready spaces and expert solutions for your creative needs." />
-            </Helmet>
+            <Seo
+                title="Welcome to Prodman - Prod Studio & Tech Concierge"
+                description="Choose between our professional prod studio and tech concierge services. Production-ready spaces and expert solutions for your creative needs."
+            />
             
             {/* <!-- Animated Background --> */}
             <div className="animated-bg">

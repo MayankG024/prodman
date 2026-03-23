@@ -9,7 +9,8 @@ export default defineConfig({
       output: {
         manualChunks: {
           'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'three-vendor': ['three', '@react-three/fiber', '@react-three/drei'],
+          'three-core': ['three'],
+          'r3f-vendor': ['@react-three/fiber'],
         },
       },
     },

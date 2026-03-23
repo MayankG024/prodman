@@ -1,15 +1,15 @@
 import React from 'react';
-import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import './NotFound.css';
+import Seo from '../components/Seo/Seo';
 
 const NotFound = () => {
   return (
     <div className="not-found-page">
-      <Helmet>
-        <title>404 - Page Not Found | Prodman</title>
-        <meta name="description" content="The page you're looking for doesn't exist." />
-      </Helmet>
+      <Seo
+        title="404 - Page Not Found | Prodman"
+        description="The page you're looking for doesn't exist."
+      />
       
       <div className="not-found-content">
         <h1 className="not-found-title">404</h1>
