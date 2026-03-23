@@ -324,27 +324,7 @@
     margin-bottom: 50px;
     background: linear-gradient(to bottom, #4f4f4f 80%, #000 20%);
   }
-wwc-card.testimonial-card {
-    height: auto;
-    min-height: 280px;
-    border-radius: 14px;
-    padding: 30px 20px;
-  }
 
-  .testimonial-name {
-    font-size: 20px;
-  }
-
-  .testimonial-role {
-    font-size: 14px;
-    margin-bottom: 12px;
-  }
-
-  .testimonial-quote {
-    font-size: 14px;
-  }
-
-  .
   .wwc-container {
     padding: 0 16px;
   }
@@ -380,7 +360,10 @@ wwc-card.testimonial-card {
   }
 
   .wwc-card.video-card:hover {
-   wwc-card.testimonial-card {
+    transform: translateY(-3px);
+  }
+
+  .wwc-card.testimonial-card {
     height: auto;
     min-height: 250px;
     border-radius: 12px;
@@ -398,9 +381,6 @@ wwc-card.testimonial-card {
 
   .testimonial-quote {
     font-size: 13px;
-  }
-
-  . transform: translateY(-3px);
   }
 
   .video-dots {

@@ -1,5 +1,5 @@
 import "./DesignFooter.css";
-import prodmanLogo from '../assets/icons/ProdmanLogo.png'
+import prodmanLogo from '../assets/icons/prodmanLogo.png'
 import incubrLogo from "../assets/icons/incubrLogo.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
