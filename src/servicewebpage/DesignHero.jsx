@@ -15,13 +15,13 @@ const DesignHero = () => {
           <StarsCanvas />
           <motion.div className="creative-container" initial="hidden" animate="visible" variants={heroVariants}>
             <h1 className="creative-title">
-              YOUR TECH CONCIERGE,
+              Build Faster. Scale Smarter.
               <br />
-              POWERED BY AI
+              Automate Everything.
             </h1>
 
             <p className="creative-desc">
-              From design to automation—we take care of everything.
+              We design, develop, and deploy intelligent tech solutions that reduce costs, eliminate manual work, and accelerate your business growth — powered by AI from day one.
             </p>
 
             <a href='#connect' className="creative-btn">
