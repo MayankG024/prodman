@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "./getInTouch.css";
 import bgImage from "../../assets/icons/background.png"; // section bg
-import GetInTouchPara from "./getInTouchPara";
+import GetInTouchPara from "./GetInTouchPara";
 
 
 const GetInTouch = ({ isOpen, onClose }) => {

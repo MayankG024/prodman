@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 import nblCard from "../assets/image/portfolioNBL.jpg";
-import wldCard from "../assets/image/portfolioWLD.jpg";
+import wldCard from "../assets/image/portfolioWld.jpg";
 import ethiCard from "../assets/image/portfolioEthi.jpg";
 
 const PortfolioSection = () => {
