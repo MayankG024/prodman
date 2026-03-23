@@ -1,7 +1,7 @@
 /* ================= WHY CHOOSE US ================= */
 
 .why-choose {
-  padding: 50px 0;
+  padding: 100px 0;
   background: linear-gradient(to bottom, #4f4f4f 60%, #000 40%); /* exact grey tone */
   margin-bottom: 30px;
 }
@@ -15,7 +15,7 @@
 
 .chooseUs{
   color: #f4a640;
-  font-family: "Cormorant Garamond", serif;
+  font-family: inherit;
   font-style: italic;
 }
 
@@ -24,12 +24,12 @@
   font-size: 56px;
   font-weight: 700;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .wwc-title .highlight {
   color: #f4a640;
-  font-family: "Cormorant Garamond", serif;
+  font-family: inherit;
   font-style: italic;
 }
 
@@ -39,7 +39,7 @@
   margin: 0 auto 55px;
   font-size: 18px;
   line-height: 1.6;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .wwc-desc span {
@@ -100,13 +100,13 @@
   font-weight: 600;
   margin-bottom: 14px;
   /* font-style: italic; */
-  font-family: Cormorant Garamond, serif;
+  font-family: inherit;
 }
 
 .wwc-card p {
-  font-size: 14px;
-  line-height: 1.7;
-  opacity: 0.75;
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.9;
 }
 /* ================= RESPONSIVE DESIGN ================= */
 
@@ -159,7 +159,7 @@
 /* Tablet/Mobile (768px and below) */
 @media (max-width: 768px) {
   .why-choose {
-    padding: 50px 0;
+    padding: 60px 0;
     margin-bottom: 60px;
     background: linear-gradient(to bottom, #4f4f4f 75%, #000 25%);
   }

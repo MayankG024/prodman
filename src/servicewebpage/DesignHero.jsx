@@ -15,22 +15,13 @@ const DesignHero = () => {
           <StarsCanvas />
           <motion.div className="creative-container" initial="hidden" animate="visible" variants={heroVariants}>
             <h1 className="creative-title">
-              WEBSITE, BRANDING,
+              YOUR TECH CONCIERGE,
               <br />
-              PACKAGING & EVERYTHING
-              <br />
-              CREATIVE
+              POWERED BY AI
             </h1>
 
             <p className="creative-desc">
-              We're a creative team with diverse skills around design and
-              development. We are passionate and obsessed to leverage our acumen to
-              bring maximum value to our clients.
-            </p>
-
-            <p className="creative-desc">
-              We work with integrity, focus and commitment. It would be great to
-              explore business with you.
+              From design to automation—we take care of everything.
             </p>
 
             <a href='#connect' className="creative-btn">

@@ -3,7 +3,7 @@
 .weRent {
     font-size: 20px !important;
     font-weight: 500 !important;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: inherit !important;
     color: #FFFFFF !important;
     opacity: 0.85 !important;
     margin-bottom: 15px !important;
@@ -34,7 +34,7 @@
 
 .hero {
     padding: 24px 0 80px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 
 .hero-container {
@@ -305,7 +305,7 @@ text-align: left;
 @media (max-width: 768px) {
     .hero {
         padding: 20px 0 60px;
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
 
     .hero-container {
@@ -381,7 +381,7 @@ text-align: left;
 @media (max-width: 480px) {
     .hero {
         padding: 15px 0 40px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .hero-container {

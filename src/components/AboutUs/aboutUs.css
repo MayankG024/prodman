@@ -1,9 +1,9 @@
 /* ================= ABOUT US SECTION ================= */
 
 .about-us-section {
-  padding: 60px 0;
+  padding: 100px 0;
   background: linear-gradient(to bottom, #4f4f4f 60%, #000 40%);
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 .wwc-container {
@@ -15,7 +15,7 @@
 
 .chooseUs{
   color: #f4a640;
-  font-family: "Cormorant Garamond", serif;
+  font-family: inherit;
   font-style: italic;
 }
 
@@ -28,7 +28,7 @@
 
 .wwc-title .highlight {
   color: #f4a640;
-  font-family: "Cormorant Garamond", serif;
+  font-family: inherit;
   font-style: italic;
 }
 
@@ -36,13 +36,13 @@
 .wwc-desc {
   max-width: 680px;
   margin: 0 auto 55px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.6;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .wwc-desc span {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 /* VIDEO CARDS GRID */
@@ -176,7 +176,7 @@
 @media (max-width: 1024px) {
   .about-us-section {
     padding: 60px 0;
-    margin-bottom: 80px;
+    margin-bottom: 0px;
   }
 
   .wwc-container {
@@ -234,8 +234,8 @@
 /* Tablet/Mobile (768px and below) */
 @media (max-width: 768px) {
   .about-us-section {
-    padding: 50px 0;
-    margin-bottom: 60px;
+    padding: 60px 0;
+    margin-bottom: 0px;
     background: linear-gradient(to bottom, #4f4f4f 75%, #000 25%);
   }
 

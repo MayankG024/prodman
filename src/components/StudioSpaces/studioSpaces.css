@@ -2,7 +2,7 @@
 
 .studio-spaces {
   background: #000;
-  padding: 120px 0;
+  padding: 100px 20px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -36,13 +36,14 @@
 
 .studio-spaces h2 span {
   color: #f4a640;
-  font-family: "Cormorant Garamond", serif;
+  font-family: inherit;
   font-style: italic;
 }
 
 .studio-subtitle {
   font-size: 18px;
-  opacity: 0.75;
+  line-height: 1.6;
+  opacity: 0.9;
   margin-bottom: 70px;
 }
 
@@ -505,8 +506,7 @@
 
 @media (max-width: 768px) {
   .studio-spaces {
-    padding: 60px 0;
-    margin-bottom: 60px;
+    padding: 60px 20px;
   }
 
   .studio-spaces h2 {
