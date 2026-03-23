@@ -44,8 +44,8 @@ const LandingFirst = () => {
     return (
         <div className='landingPage'>
             <Helmet>
-                <title>Welcome to Prodman - Studio & Design Services</title>
-                <meta name="description" content="Choose between our professional photography studio and creative design services. Professional spaces and expert solutions for your creative needs." />
+                <title>Welcome to Prodman - Prod Studio & Tech Concierge</title>
+                <meta name="description" content="Choose between our professional prod studio and tech concierge services. Production-ready spaces and expert solutions for your creative needs." />
             </Helmet>
             
             {/* <!-- Animated Background --> */}
@@ -124,7 +124,7 @@ const LandingFirst = () => {
                 </div>
 
                 <p className="subtitleL">
-                    From <span className="highlightL">design services</span> to production-ready<br />
+                    From <span className="highlightL">Tech Concierge</span> to production-ready<br />
                     <span className="highlightL">podcast studios. <br /> </span>
                     Built to support every stage of<br />
                     content creation.
@@ -132,11 +132,11 @@ const LandingFirst = () => {
 
                 <div className="btn-group">
                     <a href="/design" className="btnL" rel="noopener noreferrer">
-                        Design Services <span className="arrow"><img src={prodmanIcon} alt="prodman icon"
+                        Tech Concierge <span className="arrow"><img src={prodmanIcon} alt="prodman icon"
                             className="icon-arrow" /></span>
                     </a>
                     <Link to="/studio" className="btnL">
-                        Design Studio <span className="arrow"><img src={prodmanIcon} alt="prodman icon" className="icon-arrow" /></span>
+                        Prod Studio <span className="arrow"><img src={prodmanIcon} alt="prodman icon" className="icon-arrow" /></span>
                     </Link>
                 </div>
             </section>

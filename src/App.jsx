@@ -67,8 +67,8 @@ const Design = () => {
   return (
     <>
       <Helmet>
-        <title>Design Services - Prodman | Branding, Web Design & More</title>
-        <meta name="description" content="Professional design services including product packaging, branding, web development, UX/UI design, and social media creatives. Expert creative solutions for your business." />
+        <title>Tech Concierge - Prodman | Branding, Web Design & More</title>
+        <meta name="description" content="Professional tech concierge services including product packaging, branding, web development, UX/UI design, and social media creatives. Expert creative solutions for your business." />
       </Helmet>
       
       <DesignHeader />
