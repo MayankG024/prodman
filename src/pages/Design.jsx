@@ -18,8 +18,8 @@ const Design = () => {
       <DesignHeader />
       <DesignHero />
       <OurServices />
-      <PortfolioSection />
       <Testimonials />
+      <PortfolioSection />
       <GetInTouchDesign />
       <DesignFooter />
     </>

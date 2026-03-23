@@ -9,24 +9,24 @@
 
 .services-container {
   max-width: 1200px;
-  margin: 0 30px;
+  margin: 0 auto;
 }
 
 /* HEADER */
 .services-title {
   font-size: 48px;
-  margin-left: 10px;
+  text-align: center;
   font-weight: 600;
   margin-bottom: 14px;
 }
 
 .services-subtitle {
-  margin-left: 10px;
+  text-align: center;
   max-width: 620px;
   font-size: 18px;
   line-height: 1.6;
   opacity: 0.75;
-  margin-bottom: 60px;
+  margin: 0 auto 60px auto;
 }
 
 /* GRID */
@@ -49,6 +49,7 @@
   transition: transform 0.35s ease, box-shadow 0.35s ease, border 0.35s ease;
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .service-card:hover {
@@ -66,7 +67,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 18px;
+  margin: 0 auto 18px auto;
 }
 
 .service-icon img {
