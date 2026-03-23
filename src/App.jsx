@@ -1,6 +1,8 @@
 import React, { Suspense, lazy, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
+import WhatsAppWidget from "@/components/ui/WhatsAppWidget";
+
 const LandingFirst = lazy(() => import("./pages/LandingFirst"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const Studio = lazy(() => import("./pages/Studio"));
@@ -50,6 +52,7 @@ const App = () => {
 
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <WhatsAppWidget />
       </Suspense>
     </ErrorBoundary>
   );
