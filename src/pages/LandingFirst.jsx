@@ -6,17 +6,6 @@ import Seo from '../components/Seo/Seo';
 
 const LandingFirst = () => {
     useEffect(() => {
-        document.querySelectorAll(".btn").forEach((btn) => {
-            btn.addEventListener("mouseenter", () => {
-                btn.style.boxShadow = "0 12px 35px rgba(244,166,64,0.8)";
-            });
-
-            btn.addEventListener("mouseleave", () => {
-                btn.style.boxShadow = "0 10px 30px rgba(244,166,64,0.6)";
-            });
-        });
-
-        // Mobile touch effect for dot circle glow
         const handleTouch = (e) => {
             const logoWrapper = document.querySelector('.logo-wrapper');
             
@@ -31,13 +20,11 @@ const LandingFirst = () => {
             }
         };
 
-        // Add touch and click listeners for mobile and desktop testing
-        document.addEventListener('touchstart', handleTouch);
-        document.addEventListener('click', handleTouch);
+        // Restrict to touch to avoid extra click processing that can interfere on mobile browsers.
+        document.addEventListener('touchstart', handleTouch, { passive: true });
 
         return () => {
             document.removeEventListener('touchstart', handleTouch);
-            document.removeEventListener('click', handleTouch);
         };
     }, []);
 
@@ -131,10 +118,10 @@ const LandingFirst = () => {
                 </p>
 
                 <div className="btn-group">
-                    <a href="/design" className="btnL" rel="noopener noreferrer">
+                    <Link to="/design" className="btnL">
                         Tech Concierge <span className="arrow"><img src={prodmanIcon} alt="prodman icon"
                             className="icon-arrow" /></span>
-                    </a>
+                    </Link>
                     <Link to="/studio" className="btnL">
                         Prod Studio <span className="arrow"><img src={prodmanIcon} alt="prodman icon" className="icon-arrow" /></span>
                     </Link>

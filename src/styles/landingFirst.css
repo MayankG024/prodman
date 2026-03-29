@@ -283,6 +283,7 @@ body {
     margin-top: -80px;
     width: 500px;
     height: 200px;
+    pointer-events: none;
 }
 
 .prodman-logo {
@@ -476,6 +477,8 @@ body {
     display: flex;
     gap: 100px;
     margin-top: 40px;
+    position: relative;
+    z-index: 3;
 }
 
 
@@ -495,6 +498,7 @@ body {
     transition: transform 0.25s ease, box-shadow 0.25s ease;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.20);
     will-change: transform;
+    z-index: 4;
 }
 
 
@@ -815,7 +819,7 @@ body {
 
 /* Extra Small Mobile */
 @media (max-width: 360px) {
-    .hero {
+    .heroL {
         padding: 10px;
         padding-top: 30px;
     }
@@ -828,7 +832,7 @@ body {
         max-width: 240px;
     }
 
-    .subtitle {
+    .subtitleL {
         font-size: 14px;
         margin-bottom: 25px;
     }
